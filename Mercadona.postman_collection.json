@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "1165b5b0-91ef-4631-affd-35ab2c27d96d",
+		"name": "Mercadona",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5478943"
+	},
+	"item": [
+		{
+			"name": "categorias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tienda.mercadona.es/api/categories/",
+					"protocol": "https",
+					"host": [
+						"tienda",
+						"mercadona",
+						"es"
+					],
+					"path": [
+						"api",
+						"categories",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "categorias/{id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tienda.mercadona.es/api/categories/3",
+					"protocol": "https",
+					"host": [
+						"tienda",
+						"mercadona",
+						"es"
+					],
+					"path": [
+						"api",
+						"categories",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://prod-mercadona.imgix.net/images/673e368e5214cf961094daab5e7abcd8.jpg?fit=crop&h=300&w=300",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://prod-mercadona.imgix.net/images/673e368e5214cf961094daab5e7abcd8.jpg?fit=crop&h=300&w=300",
+					"protocol": "https",
+					"host": [
+						"prod-mercadona",
+						"imgix",
+						"net"
+					],
+					"path": [
+						"images",
+						"673e368e5214cf961094daab5e7abcd8.jpg"
+					],
+					"query": [
+						{
+							"key": "fit",
+							"value": "crop"
+						},
+						{
+							"key": "h",
+							"value": "300"
+						},
+						{
+							"key": "w",
+							"value": "300"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productos{/id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tienda.mercadona.es/api/products/3130/",
+					"protocol": "https",
+					"host": [
+						"tienda",
+						"mercadona",
+						"es"
+					],
+					"path": [
+						"api",
+						"products",
+						"3130",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
