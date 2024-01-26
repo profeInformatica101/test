@@ -1,0 +1,16 @@
+spring.application.name=spring-security
+server.address=0.0.0.0
+spring.profiles.active=demo
+
+jwt.secret=G5pE3i4e0A1vUN/z0MutEqgxlbLLXgX+QEV8HDlyH1E=
+ipstack.access_key=592ae01a871e6330e857112aaa4473a0
+aemet.api.key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqcGRtYXlvMTk4NkBnbWFpbC5jb20iLCJqdGkiOiI4ZGVlMmRjNi04YjczLTRhZDMtOWFmZS04YjY2ZWYzZTY1MWEiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcwNjEzMTgzMCwidXNlcklkIjoiOGRlZTJkYzYtOGI3My00YWQzLTlhZmUtOGI2NmVmM2U2NTFhIiwicm9sZSI6IiJ9.Cszvy0rSgVnsEUVo9wqJKWdFMOxAbfNvKUFFISGF3c0
+pexels.key=d9W5zLa15MyvsAw4AiChpegw8qHaV750d0K0CAQnF6pvxmZM1Dt624ML
+server.port=8080
+server.error.whitelabel.enabled=false
+spring.datasource.url=jdbc:mysql://localhost:3306/tubasededatos
+spring.datasource.username=root
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
